@@ -1,5 +1,7 @@
 package at.campus02.nowa;
 
+import at.campus02.nowa.figures.FigureH;
+
 import java.util.Scanner;
 
 /* Diese Datei NICHT ändern! */
@@ -11,6 +13,7 @@ public class Main {
         app.Run();
         input.close();
         System.out.println("Das Programm wird beendet ...");
+
     }
 }
 
