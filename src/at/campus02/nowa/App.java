@@ -46,7 +46,7 @@ public class App {
 
         switch (figureNr) {
             case 1:
-                figure = new FigureH();
+                figure = new FigureH(3);
                 break;
             case 2:
                 figure = new FigureL();
@@ -80,7 +80,8 @@ public class App {
         do {
             output.println("Welche Grafik möchten Sie anzeigen (1-6)");
             figureNr = input.nextInt();
-            
+            output.println("Bitte wählen Sie eine Größe");
+            figureNr = input.nextInt();
             if (figureNr < 1 || figureNr > 6) {
                 output.println("Dies ist keine gültige Grafik!");
             } else {
