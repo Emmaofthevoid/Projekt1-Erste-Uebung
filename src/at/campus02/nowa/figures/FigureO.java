@@ -1,8 +1,8 @@
 package at.campus02.nowa.figures;
 
-public class FigureO extends Figure{
-    public FigureO () {
-
+public class FigureO extends Figure {
+    public FigureO(int size) {
+        _faktor = size;
 
         symbol[0][0] = 'X';
         symbol[1][0] = 'X';
